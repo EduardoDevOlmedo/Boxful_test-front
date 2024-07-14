@@ -1,0 +1,34 @@
+
+.container {
+    background: var(--primary_background);
+    height: var(--navbar_height);
+    padding: 20px;
+    border-bottom: 1px solid #DDD;
+}
+
+.logo {
+    filter: invert(34%) sepia(38%) saturate(7020%) hue-rotate(2deg) brightness(104%) contrast(104%);
+}
+
+.logo_container {
+    width: 220px;
+    min-width: 100%;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.logo_divider_container {
+    position: relative;
+    border-bottom: 1px solid #DDD;
+}
+  
+.logo_divider {
+    width: 1px;
+    height: 43px;
+    position: absolute;
+    background: #DDDD;
+    z-index: 1;
+    inset: 0; 
+    margin: auto;
+  }
