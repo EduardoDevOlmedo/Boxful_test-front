@@ -1,15 +1,15 @@
 import { useState } from 'react';
 import { DatePickerProps, MenuProps, message, Tooltip } from 'antd';
-import { ArrowRightOutlined, EnvironmentFilled } from '@ant-design/icons';
+import { ArrowRightOutlined } from '@ant-design/icons';
 import PhoneInput from '@/components/form/PhoneInput/PhoneInput';
 import Dropdown from '@/components/form/Dropdown/Dropdown';
 import DatePicker from '@/components/form/DatePicker/DatePicker';
 import Input from '@/components/form/Input/Input';
 import Button from '@/components/form/Button/Button';
-import { elSalvadorData, emailRegex, filterMunicipalities, getDisabledDate, isEmpty } from '../../app/utils/utils';
-import { AddressItem, FormState } from './types';
 import useStepStore from '@/app/stores/useStepStore';
 import useSectionOneStore from '@/app/stores/useSectionOneStore';
+import { elSalvadorData, emailRegex, filterMunicipalities, getDisabledDate, isEmpty } from '../../app/utils/utils';
+import { AddressItem, FormState } from './types';
 
 const SectionOne = () => {
 

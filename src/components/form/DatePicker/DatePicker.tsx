@@ -1,8 +1,7 @@
-import React, { useRef, useEffect } from 'react';
+import React from 'react';
 import { DatePicker as AntDatePicker } from 'antd';
 import Label from '../Label/Label';
 import { DatePickerProps } from './types';
-import { CalendarOutlined } from '@ant-design/icons';
 
 const DatePicker: React.FC<DatePickerProps> = ({ label, ...rest }) => {
 

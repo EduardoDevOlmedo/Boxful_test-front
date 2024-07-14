@@ -1,5 +1,4 @@
-// src/app/stores/useSectionOneStore.ts
-import create from 'zustand';
+import { create }from 'zustand';
 import { FormState } from '@/components/Sections/types';
 
 interface SectionOneState {
@@ -18,7 +17,7 @@ const useSectionOneStore = create<SectionOneState>((set) => ({
     address: '',
     referencePoint: '',
     instructions: '',
-    phone: '',
+    phone: '+503 ',
     department: '',
     municipality: '',
   },
