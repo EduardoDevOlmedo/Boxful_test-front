@@ -2,7 +2,7 @@
 
 ## Levantar proyecto
 
-Para levantar el proyecto en tu entorno local, ejecuta el siguiente comando:
+Para levantar el proyecto en el entorno local:
 
 ```bash
 yarn

@@ -354,6 +354,7 @@ button.form_button.send_button.loading_button {
   .form_container {
     overflow: auto;
     gap: 10px;
+    padding: 45px 20px;
   }
 
   .first_section, .second_section, .third_section, .fourth_section {
