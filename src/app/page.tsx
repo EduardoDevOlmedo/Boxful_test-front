@@ -3,6 +3,7 @@ import React, { ReactNode } from 'react';
 import SectionOne from '@/components/Sections/SectionOne';
 import SectionTwo from '@/components/Sections/SectionTwo';
 import useStepStore from './stores/useStepStore';
+
 import './globals.css';
 
 
@@ -28,6 +29,7 @@ export default function Home() {
       <div className="form_container">
         {currentStepComponent}
       </div>
+    
     </main>
   );
 }
